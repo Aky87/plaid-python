@@ -27,3 +27,4 @@ jobs:
         command: docker run --rm -e CLIENT_ID=**REDACTED** -e SECRET=**REDACTED** plaid-python
     - store_test_results:
         path: /tmp/circleci-test-results
+        
